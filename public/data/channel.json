@@ -1,0 +1,43 @@
+{
+  "kind": "youtube#channelListResponse",
+  "etag": "InJSG4U_-uWQoto6sRFHJHz5nzc",
+  "pageInfo": {
+      "totalResults": 1,
+      "resultsPerPage": 5
+  },
+  "items": [
+      {
+          "kind": "youtube#channel",
+          "etag": "flGCe4Hz3fpx0-3f-Lu_0LlfCgY",
+          "id": "UCnmGIkw-KdI0W5siakKPKog",
+          "snippet": {
+              "title": "Ryan Trahan",
+              "description": "just a guy\nInstagram: @ryantrahan\nBusiness inquiries: ryantrahan@night.co",
+              "customUrl": "@ryan",
+              "publishedAt": "2013-10-27T02:06:20Z",
+              "thumbnails": {
+                  "default": {
+                      "url": "https://yt3.ggpht.com/Yxvus5PSvCa2WXrchCax11Dg_1HWOqlsyTQKpNvibipOO4e9FIGsKbnT4Pj7DzUXO4sqjjxcQaM=s88-c-k-c0x00ffffff-no-rj",
+                      "width": 88,
+                      "height": 88
+                  },
+                  "medium": {
+                      "url": "https://yt3.ggpht.com/Yxvus5PSvCa2WXrchCax11Dg_1HWOqlsyTQKpNvibipOO4e9FIGsKbnT4Pj7DzUXO4sqjjxcQaM=s240-c-k-c0x00ffffff-no-rj",
+                      "width": 240,
+                      "height": 240
+                  },
+                  "high": {
+                      "url": "https://yt3.ggpht.com/Yxvus5PSvCa2WXrchCax11Dg_1HWOqlsyTQKpNvibipOO4e9FIGsKbnT4Pj7DzUXO4sqjjxcQaM=s800-c-k-c0x00ffffff-no-rj",
+                      "width": 800,
+                      "height": 800
+                  }
+              },
+              "localized": {
+                  "title": "Ryan Trahan",
+                  "description": "just a guy\nInstagram: @ryantrahan\nBusiness inquiries: ryantrahan@night.co"
+              },
+              "country": "US"
+          }
+      }
+  ]
+}
