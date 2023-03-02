@@ -20,7 +20,7 @@ function VideoCard({ video, type }) {
             onClick={VideoDetail}>
             <img className={isList ? 'w-60 mr-2 mb-3 rounded-xl' : 'w-full rounded-xl'} src={thumbnails.medium.url} alt={title}/>
             <div className='flex'>
-                <ChannelInfor id={channelId}/>
+                {isList ? '': <ChannelInfor id={channelId}/>}
                 <div>
                     <p className='font-semibold my-2 line-clamp-2'>{title}</p>
                     <p className='text-sm opacity-80'>{channelTitle}</p>

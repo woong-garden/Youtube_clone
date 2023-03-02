@@ -31,7 +31,7 @@ function VideoDetail(props) {
                 <div className="py-5">
                     <h2 className="text-xl font-bold">{title}</h2>
                     <ChannelInfor id={channelId} name={channelTitle} />
-                    <div className="bg-black/50	p-3 text-black rounded-xl">
+                    <div className="bg-zinc-400	p-3 text-black rounded-xl">
                         {/* <span>조회수 {video.statistics.viewCount}회</span> */}
                         <span>  </span>
                         <span>{formatAgo(publishedAt, "ko")}</span>
