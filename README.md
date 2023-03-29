@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# 🎥 유튜브 클론코딩
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![ex_screenshot](./img/mainimg.PNG)
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+**프로젝트 기간** : 2023.02.22 ~ 2023.03.02
 
-### `yarn start`
+[🔗사이트 둘러보기](https://incandescent-maamoul-efefa6.netlify.app/)
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+[🎬 시연영상](https://youtu.be/dt9TslezU-Y)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<br>
 
-### `yarn test`
+## ****✨ 프로젝트 개요****
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 본 프로젝트는 YouTube API를 활용하여 유튜브 클론 코딩 웹앱을 구현하는 것을 목적으로 합니다.
+- React를 기반으로 프로젝트를 구현하며, YouTube API를 사용하여 동영상 검색, 재생, 최신 인기동영상 기능을 구현합니다.
 
-### `yarn build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## ****💻 기술 스택****
+### Frontend
+<img src="https://img.shields.io/badge/react-444444?style=for-the-badge&logo=react"> <img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"> <img src="https://img.shields.io/badge/React Query-FF4154?style=for-the-badge&logo=React Query&logoColor=white"> <img src="https://img.shields.io/badge/React Router-CA4245?style=for-the-badge&logo=React Router&logoColor=white"> <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=Axios&logoColor=white"> 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend
+<img src="https://img.shields.io/badge/YouTube API-FF0000?style=for-the-badge&logo=YouTube&logoColor=white">
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+|구분|사용 기술|
+|:---:|:---:|
+|UI|React|
+|라우팅|React Router Dom|
+|스타일링|TailWind CSS|
+|아이콘|react-icons|
+|API 연동|Axios|
+|서버 상태 관리|React Query|
+|Loading UI|react-loading-skeleton|
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ****🔍 주요 기능****
+- 검색기능
+- home페이지 최신인기동영상
+- 동영상 재생
+- 로딩중 skeletonUI 
+<img src="./img/skeleton.gif" width="500" height="300"/>
+<br>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
