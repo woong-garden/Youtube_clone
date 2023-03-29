@@ -30,3 +30,27 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --color-bg-dark: bg-zinc-900;
+  --color-accent: #aaa7a7;
+  --color-scrollbar: #606060;
+}
+
+::-webkit-scrollbar {
+  width: 0.75rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--color-bg-dark);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar);
+  border-radius: 50px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-accent);
+}
